@@ -1,5 +1,7 @@
 # 💫 About Me:
-Hi👋, I'm Thien Hao
+<h1 align="left">
+    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=500&random=false&width=435&lines=Hello;I'm+Thien+Hao" alt="Typing SVG" /></a>
+</h1>
 
 
 # 💻 Tech Stack:
