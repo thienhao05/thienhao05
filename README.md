@@ -118,34 +118,3 @@
   <source media="(prefers-color-scheme: light)" srcset="assets/github-snake.svg" />
   <img alt="github-snake" src="assets/github-snake.svg" />
 </picture>
-
----
-
-<!-- - 📫 Reach me at: **phao9350@gmail.com**
-
-### 🌐 Connect with me:
-
-<p align="left">
-  <!-- Facebook -->
-  <!--
-  <a href="https://www.facebook.com/thien.hao.575953" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg"
-      alt="Facebook" height="30" width="40"/>
-  </a>
-
-  <!-- LinkedIn -->
-  <!--
-  <a href="https://www.linkedin.com/in/h%C3%A0o-thi%C3%AAn-4112113b0/" target="_blank">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
-       alt="LinkedIn"
-       height="30"
-       width="40"/>
-  </a>
-
-  <!-- Instagram -->
-  <!--
-  <a href="https://www.instagram.com/phao9350/" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg"
-      alt="Instagram" height="30" width="40"/>
-  </a>
-</p> -->
