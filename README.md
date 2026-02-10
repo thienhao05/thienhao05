@@ -33,7 +33,7 @@
 - 💻 Backend Developer focusing on **ASP.NET Core**
 - 🧱 Interested in **Clean Architecture, RESTful API**
 - 💬 `Reset. Restart. Refocus.`
-- 📫 Contact me at: **phao9350@gmail.com**
+- 📫 Contact me at: **<phao9350@gmail.com>**
 
 <!-- Technical Skills -->
 
