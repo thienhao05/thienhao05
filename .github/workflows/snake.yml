@@ -2,36 +2,44 @@ name: Update Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-permissions:
-  contents: write
+    - cron: '0 0 * * *'  # Chạy mỗi ngày lúc 00:00 UTC
+  workflow_dispatch:  # Cho phép chạy thủ công
 
 jobs:
   update-snake:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+      # Lấy code từ repo
+      - uses: actions/checkout@v2
 
+      # Tạo file con rắn mới
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: ${{ github.repository_owner }}  # Lấy username GitHub của repo owner
           outputs: |
-            assets/github-snake.svg
-            assets/github-snake-dark.svg?palette=github-dark
-            assets/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
+      # Kiểm tra sự tồn tại của file SVG/GIF
+      - name: Check for generated snake SVG
+        run: |
+          echo "Checking if the snake file exists..."
+          ls -alh  # Liệt kê các file trong thư mục làm việc
+          if [ ! -f "dist/github-snake.svg" ]; then
+            echo "SVG file not found!"
+            exit 1
+          fi
+
+      # Commit và push file SVG vào repo
       - name: Commit & Push
         uses: EndBug/add-and-commit@v7
         with:
-          author_name: github-actions[bot]
-          author_email: 41898282+github-actions[bot]@users.noreply.github.com
+          author_name: "github-actions[bot]"
+          author_email: "41898282+github-actions[bot]@users.noreply.github.com"
           message: "Update contribution snake"
-          add: "assets"
           push: true
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+          token: ${{ secrets.GITHUB_TOKEN }}  # Sử dụng token GitHub từ Secrets để thực hiện commit và push
