@@ -49,7 +49,6 @@
 ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
 
----
 
 ### 🧰 Frameworks
 
@@ -71,7 +70,7 @@
 ![EF Core](https://img.shields.io/badge/EF_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 -->
 
----
+
 
 ### 🛢️ Databases
 
@@ -83,7 +82,6 @@
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white) -->
 
----
 
 ## 📊 GitHub Stats:
 
@@ -104,7 +102,6 @@
   </div>
 </div>
 
----
 
 ## ✍️ Dev Quote of the Day
 
@@ -118,8 +115,6 @@
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=thienhao05&theme=react&count_private=true&bg_color=white" alt="GitHub Activity Graph" />
 </p>
-
----
 
 ## 🐍 Contribution Snake
 
