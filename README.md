@@ -27,7 +27,7 @@
     <img src="https://komarev.com/ghpvc/?username=thienhao05&label=PROFILE%20VIEWS&style=for-the-badge&color=38BDF8&logo=github" alt="thienhao05" />
 </div>
 
-### 👻 A little about me...
+## 👻 A little about me...
 
 - 🎓 Student at FPT University
 - 💻 Backend Developer focusing on **ASP.NET Core**
@@ -37,9 +37,9 @@
 
 <!-- Technical Skills -->
 
-### 💻 Tech Stack
+## 💻 Tech Stack
 
-#### 👨‍💻 Languages
+### 👨‍💻 Languages
 
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -51,7 +51,7 @@
 
 ---
 
-#### 🧰 Frameworks
+### 🧰 Frameworks
 
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
@@ -73,7 +73,7 @@
 
 ---
 
-#### 🛢️ Databases
+### 🛢️ Databases
 
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Microsoft SQL Server](https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
@@ -85,7 +85,7 @@
 
 ---
 
-### 📊 GitHub Stats:
+## 📊 GitHub Stats:
 
 <div align="center">
   <div>
@@ -106,7 +106,7 @@
 
 ---
 
-### ✍️ Dev Quote of the Day
+## ✍️ Dev Quote of the Day
 
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
@@ -121,7 +121,7 @@
 
 ---
 
-### 🐍 Contribution Snake
+## 🐍 Contribution Snake
 
 <!-- làm sau -->
 
