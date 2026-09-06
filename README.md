@@ -107,9 +107,23 @@
 
 ---
 
-<!-- github graph -->
+<!-- github graph --><!-- 
+  Hiển thị biểu đồ hoạt động GitHub (GitHub Activity Graph) 
+  của user "thienhao05", căn giữa trên trang README 
+-->
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=thienhao05&theme=react&count_private=true&bg_color=white" alt="GitHub Activity Graph" />
+  <!-- 
+    Ảnh được generate động (dynamic image) từ dịch vụ github-readme-activity-graph 
+    - username=thienhao05     : lấy dữ liệu hoạt động của tài khoản GitHub này
+    - theme=react             : dùng theme màu "react" cho biểu đồ (có nhiều theme khác: dark, dracula, radical,...)
+    - count_private=true      : tính luôn cả hoạt động trên các repo private (không chỉ public)
+    - bg_color=white          : nền của biểu đồ là màu trắng
+  -->
+  <img 
+    src="https://github-readme-activity-graph.vercel.app/graph?username=thienhao05&theme=react&count_private=true&bg_color=white" 
+    alt="GitHub Activity Graph" 
+    <!-- alt text hiển thị khi ảnh không load được, đồng thời hỗ trợ accessibility -->
+  />
 </p>
 
 ## 🐍 Contribution Snake
