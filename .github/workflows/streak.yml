@@ -1,0 +1,33 @@
+name: Update Streak
+
+on:
+  schedule:
+    - cron: '0 1 * * *'  # Chạy mỗi ngày lúc 01:00 UTC
+  workflow_dispatch:  # Cho phép chạy thủ công
+
+jobs:
+  streak:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Cần quyền ghi để commit file SVG
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate streak card
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/streak.py "${{ github.repository_owner }}" assets/streak.svg
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/streak.svg
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update streak card"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi

@@ -85,7 +85,7 @@
 <div align="center">
   <div>
     <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
-      <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Thien Hao's streak" src="https://streak-stats.demolab.com/?user=thienhao05&theme=monokai-metallian&hide_border=true"/>
+      <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Thien Hao's streak" src="./assets/streak.svg"/>
     </a>
   </div>
 
