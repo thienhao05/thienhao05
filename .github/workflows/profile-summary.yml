@@ -1,0 +1,25 @@
+name: Profile Summary Cards
+
+on:
+  schedule:
+    - cron: '30 0 * * *'  # Chạy mỗi ngày lúc 00:30 UTC
+  workflow_dispatch:  # Cho phép chạy thủ công
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-summary-cards
+    permissions:
+      contents: write  # Cần quyền ghi để action tự commit file SVG
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: "main"
+          UTC_OFFSET: 7  # Giờ Việt Nam
+          THEME: "radical"  # Chỉ tạo 1 theme cho nhẹ repo

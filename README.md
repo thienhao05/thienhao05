@@ -91,7 +91,7 @@
 
   <div>
     <a href="https://github.com/anuraghazra/github-readme-stats">
-      <img alt="Thien Hao's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thienhao05&langs_count=8&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=4B8DC9&icon_color=F8D866" height="192px"/>
+      <img alt="Thien Hao's Top Languages" src="./profile-summary-card-output/radical/2-most-commit-language.svg" height="192px"/>
     </a>
     <a>
         <img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" alt="About Me GIF" width="180px">
