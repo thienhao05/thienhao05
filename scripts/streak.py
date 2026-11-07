@@ -75,7 +75,7 @@ def compute(days, today):
     if cur_len == 0:
         cur_start = cur_end = None
 
-    first_day = min(days) if days else today
+    first_day = active[0] if active else today
     return {
         "total": total,
         "first_day": first_day,
