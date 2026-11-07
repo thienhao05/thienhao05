@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://github.com/thienhao05">
-    <img src="https://readme-typing-svg.herokuapp.com?color=E0DFF1&width=400&height=28&lines=A+Software+Developer+From+VietNam..;Always+learning+new+things!..;Nice+To+Meet+You+....&center=true" />
+    <img src="https://readme-typing-svg.demolab.com?font=Itim&color=E0DFF1&width=400&height=28&lines=A+Software+Developer+From+VietNam..;Always+learning+new+things!..;Nice+To+Meet+You+....&center=true" />
   </a>
 </p>
 
@@ -85,13 +85,13 @@
 <div align="center">
   <div>
     <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
-      <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Thien Hao's streak" src="https://github-readme-streak-stats-9m8ugfa77-denvercoder1.vercel.app/?user=thienhao05&theme=monokai-metallian&hide_border=true"/>
+      <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Thien Hao's streak" src="https://streak-stats.demolab.com/?user=thienhao05&theme=monokai-metallian&hide_border=true"/>
     </a>
   </div>
 
   <div>
     <a href="https://github.com/anuraghazra/github-readme-stats">
-      <img alt="Thien Hao's Top Languages" src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=thienhao05&langs_count=8&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=4B8DC9&icon_color=F8D866" height="192px"/>
+      <img alt="Thien Hao's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thienhao05&langs_count=8&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=4B8DC9&icon_color=F8D866" height="192px"/>
     </a>
     <a>
         <img src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" alt="About Me GIF" width="180px">
@@ -110,7 +110,7 @@
 ## 🐍 Contribution Snake
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/github-snake.svg" />
-  <img alt="github-snake" src="assets/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="dist/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="dist/github-snake.svg" />
+  <img alt="github-snake" src="dist/github-snake.svg" />
 </picture>
